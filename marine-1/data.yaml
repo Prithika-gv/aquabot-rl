@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Fishing wastes', 'Glass wastes', 'Metal wastes', 'Natural wastes', 'Plastic wastes', 'Wood wastes']
+
+roboflow:
+  workspace: ydieh
+  project: marine-lcfef
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ydieh/marine-lcfef/dataset/1
