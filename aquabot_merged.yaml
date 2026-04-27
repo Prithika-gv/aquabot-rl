@@ -1,0 +1,16 @@
+path: C:/datasets/aquabot_merged
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 9
+names:
+  - Bottle
+  - Cup
+  - Food_Container
+  - Other
+  - Plastic_Bag
+  - Plastic_Container
+  - Styrofoam
+  - Toothbrush
+  - Utensil

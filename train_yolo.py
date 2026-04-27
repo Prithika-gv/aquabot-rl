@@ -5,11 +5,11 @@ model = YOLO("yolov8n.pt")
 
 # Train on marine debris dataset
 results = model.train(
-    data="C:/datasets/marine/data.yaml",
-    epochs=50,
+    data="C:/datasets/aquabot_merged/aquabot_merged.yaml",
+    epochs=100,
+    batch=16,
+    name="aquabot_v2",
     imgsz=640,
-    batch=8,
-    name="aquabot_detector",
     device="cpu",         # laptop CPU for now
     patience=10,          # stop early if not improving
     save=True,
